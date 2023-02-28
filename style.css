@@ -1,0 +1,258 @@
+body {
+   
+    font-size: 15px;
+    line-height: 1;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+
+/* Hlavička */
+.hlavicka {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+
+   
+}
+ul {
+    list-style-type:circle
+}
+.foto {
+    width: 6%;
+    border-radius: 0px 20px 0px 20px;
+    border: 2px dotted;
+    border-color: white;
+    margin: 10px;
+
+
+}
+
+
+h1 {font-family: 'Lobster', cursive;
+    font-size: 42px;
+
+
+}
+
+
+.nadpis2 { font-family: 'Encode Sans', sans-serif;
+    color: white;
+
+
+}
+
+
+h2 {
+    font-family: 'Encode Sans', sans-serif;
+    color: #432703
+}
+
+
+h3
+{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    color: #432703
+
+
+}
+
+
+a {
+    color:#432703;
+}
+p {
+    line-height: 0%;
+}
+
+
+.kontakt {
+    text-align: center;
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: large;
+    gap: 20px;
+    font-family: 'Encode Sans', sans-serif;
+   
+}
+
+
+.sekcejedna,
+.sekcedva,
+.sekcetri,
+.sekcectyri,
+.sekcepet {
+   
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+   
+}
+
+
+.sekcejedna
+{   margin: 40px;
+    background-color: antiquewhite;
+    border-radius: 0 10px 10px 10px;
+}
+
+
+.sekcedva {
+     background-color: pink;
+     margin: 20px;
+     border-radius: 10px 10px 10px 0;
+}
+
+
+.sekcetri {
+    background-color: aquamarine;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.sekcectyri {
+    margin: 30px;
+    background-color: paleturquoise;
+    padding: 5 50px 0 0 ;
+    border-radius: 10px 0 10px 10px;
+}
+
+
+.sekcepet {
+    background-color: blanchedalmond;
+    margin: 10px;
+    border-radius: 10px 10px 0 10px;
+}
+
+
+/* Okraje */
+/* První tabulka */
+
+
+.prvnitab tr:nth-child(2n) > td:nth-child(2n) {
+    background: palevioletred
+}
+
+
+
+
+.prvnitab tr:nth-child(2n+1) > td:nth-child(2n+1) {
+    background: papayawhip;
+}
+
+
+
+
+.prvnitab tr:nth-child(2n+1) > td:nth-child(2n) {
+    background: pink;
+}
+.prvnitab tr:nth-child(2n) > td:nth-child(2n+1) {
+    background: paleturquoise;
+}
+
+
+
+
+/*Druhá tabulka*/
+
+
+.druhatab tr:nth-child(2n) > td:nth-child(2n) {
+    background: paleturquoise
+}
+
+
+
+
+.druhatab tr:nth-child(2n+1) > td:nth-child(2n+1) {
+    background: pink;
+}
+
+
+
+
+.druhatab tr:nth-child(2n+1) > td:nth-child(2n) {
+    background: papayawhip;
+}
+.druhatab tr:nth-child(2n) > td:nth-child(2n+1) {
+    background: palevioletred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.prvnitab td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid purple;
+    color: transparent;
+   
+}
+
+
+
+
+
+
+
+
+.druhatab td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid purple;
+    color: transparent;
+}
+
+
+.prvnitab {  
+ 
+    float: left;
+    border-collapse: collapse;
+
+
+}
+
+
+
+
+.druhatab {  
+   
+    float: right;
+    border-collapse: collapse;
+}
+
+
+
+
+
+
+/* Patička */
+.paticka {
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+    font-style: italic;
+   
+}
